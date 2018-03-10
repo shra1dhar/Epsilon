@@ -1,0 +1,58 @@
+body{
+    margin-top: 2%;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+.logo{
+    max-width: 250px;
+    padding: 30px;
+}
+@media only screen and (min-device-width: 700px) {
+    .logo {
+    padding-right: 50px;
+    padding-left:50px;
+    border: #ecd7bf 2px solid;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    }
+    .reg{
+        padding: 30px 200px !important;
+    }
+}
+.reg{
+    padding: 30px;
+    background-color: #ecd7bf;
+}
+.input-group{
+    padding: 6px;
+}
+.flag, #sub{
+    padding: 4px;
+    border-radius: 4px;
+}
+#sub{
+    margin: 30%;
+    cursor: pointer;
+    background-color: saddlebrown;
+    color: #fff;
+    padding: 6px;
+}
+@media only screen and (max-device-width: 500px) {
+    .container{
+        margin-top: 0px;
+    }
+    .logo{
+        padding: 10px;
+    }
+    .cen {
+     margin-left: 35%;
+    }
+     .reg{
+         padding-bottom: -100px !important;
+    }
+}

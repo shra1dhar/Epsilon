@@ -1,0 +1,44 @@
+.input-group {
+    margin: 20px;
+}
+.flag,
+#sub {
+    padding: 5px;
+    border-radius: 4px;
+}
+#sub {
+    cursor: pointer;
+    background-color: saddlebrown;
+    color: #fff;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.container{
+    display: block;
+    text-align: center;
+    background-color: #ecd7bf;
+    padding: 10px;
+}
+.msg{
+    width: 490px !important;
+    height: 20vh;
+}
+@media only screen and (max-device-width: 500px) {
+    .white {
+        font-size: 1rem;
+    }
+    .container {
+        margin-top: 0px;
+    }
+  .msg {
+      width: 250px !important;
+      height: 20vh;
+  }
+  #sub {
+      display: block;
+      margin-left: 35vw;
+
+  }
+
+}
+

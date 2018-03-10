@@ -1,0 +1,111 @@
+body{
+    /* background: url(img/scroll.svg) center no-repeat;
+    background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* height x width*/
+    background-color: #a79e84;
+    background-color: #454140;
+}
+
+a:link{
+    color: transparent;
+}
+#particles-js{
+    position: relative;
+}
+#main-body{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    z-index: 20;
+}
+.title{
+    font-size: 4rem;
+    text-align: center;
+    font-family:'Fredericka the Great', cursive;
+    font-weight: 200;
+    margin-top:0px;
+}
+#e{
+    color: #7a3b2e;
+    background-color: #ffffffe1;
+    box-shadow: 10px 10px 5px #353535a1;
+}
+#r{
+    color: #fff;
+    background-color: #7a3b2e;
+    box-shadow: 10px 10px 5px #353535a1;
+}
+.txt{
+    opacity: 0.9;
+    text-align: center;
+    margin-top: -30px;
+    padding-left: 50%;
+}
+.bars{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    font-family: 'Open Sans',sans-serif;
+    background-color: #ffffffab;
+    margin-top: -10px;
+    text-decoration: none;
+}
+#home, #register, #contact, #logIn, #leaderboard{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+}
+#home:hover, #register:hover, #contact:hover, #logIn:hover, #leaderboard:hover{
+    transition-delay: 100ms;
+    color:#fff;
+    background-color: rgba(51, 51, 51, 0.945);
+    cursor: pointer;
+    transform: scale(1.15);
+}
+table {
+    /* width: 100%; */
+    /* border-collapse: collapse; */
+}
+
+/* Targetting/overiding specific values   Note: Even and odd won't work*/
+
+tr:nth-child(odd) {
+    background-color: #ecd7bf;
+}
+
+tr:nth-child(even) {
+    background-color: #ecd7bfef;
+} 
+th{
+    background-color: #7a3b2e;
+    color: #fff;
+    font-size: 1.2rem;
+}
+td, th{
+    padding: 1rem !important;
+}
+.logo{
+    width: 30%;
+    z-index: 10;
+}
+@media only screen and (max-device-width: 500px) {
+    .title{
+        font-size: 2.2rem;
+    }
+    #home, #register, #contact, #logIn, #leaderboard {
+        font-size: 0.7rem;
+    }
+    td, th {
+        padding: 0.3rem !important;
+        font-size: 0.7rem;
+    }
+    table{
+        margin-top: -55px;
+    }
+    #main-body{
+        left: 0px;
+    }
+}
