@@ -18,6 +18,9 @@
     text-align: center;
     background-color: #ecd7bf;
     padding: 10px;
+    width: 88vw;
+    margin-left: 6vw;
+    box-sizing: border-box;
 }
 .msg{
     width: 490px !important;

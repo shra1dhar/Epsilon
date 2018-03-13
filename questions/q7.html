@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="author" content="Shravan Dhar, Jishnu SM">
-    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great&text=EpsilonRd|Open+Sans|Kaushan+Script" rel="stylesheet">
-    <link rel="stylesheet" href="css/leaderboard.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <title>Epsilon</title>
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great&text=EpsilonRd|Open+Sans|Kaushan+Script" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="q.css">
 </head>
+
 <body>
     <div class="top-portion">
         <div>
@@ -20,66 +20,45 @@
         </div>
     
         <div class="bars">
-            <a href="index.html">
+            <a href="../index.html">
                 <div id="home">HOME</div>
             </a>
-            <a href="register.html">
+            <a href="../register.html">
                 <div id="register">REGISTER</div>
             </a>
-            <a href="login.html">
+            <a href="../login.html">
                 <div id="logIn">LOG IN</div>
             </a>
-            <a href="contact.html">
+            <a href="../contact.html">
                 <div id="contact">CONTACT US</div>
             </a>
-            <a href="leaderboard.html">
+            <a href="../leaderboard.html">
                 <div id="leaderboard">LEADERBOARD</div>
             </a>
         </div>
     </div>
-    <div class="scoreboard">
-        <table class="table">
-            <thead class = "thead-dark">
-                <tr>
-                    <th scope="col">Rank</th>
-                    <th scope="col">Name</th>
-                    <th scope="col">Email ID</th>
-                    <th scope="col">Points</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td>Larry</td>
-                    <td>the Bird</td>
-                    <td>@twitter</td>
-                </tr>
-            </tbody>
-        </table>
-
+    
+    <div class="img1">
+        <img src="Q-images/img7.JPG" class="img-fluid" alt="image 7">
     </div>
 
+    <h1 class="set">Makes Sense??</h1>
 
+    <form method="POST" action="loginprocess.php">
+        <div class="form-group adjust">
+            <label for="q7"></label>
+            <input type="text" class="form-control" id="q7" placeholder="Answer here" required>
+        </div>
+        <div class="adjust-button">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
 
-
+        <!-- oh you poor thing, the answer ain't here. Well, not yet :p -->
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
-
-
 </body>
+
 </html>

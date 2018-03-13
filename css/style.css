@@ -3,7 +3,6 @@ body{
     background-size: cover; */
     /* background-repeat: no-repeat; */
     /* height x width*/
-    background-color: #a79e84;
     background-color: #454140;
 }
 
@@ -36,12 +35,12 @@ a:link{
     background-color: #7a3b2e;
     box-shadow: 10px 10px 5px #353535a1;
 }
-.txt{
+/* .txt{
     opacity: 0.9;
     text-align: center;
     margin-top: -30px;
     padding-left: 50%;
-}
+} */
 .bars{
     display: flex;
     justify-content: space-around;
@@ -51,6 +50,8 @@ a:link{
     font-family: 'Open Sans',sans-serif;
     background-color: #ffffffab;
     margin-top: -10px;
+    width: 88vw;
+    margin-left: 6vw;
     text-decoration: none;
 }
 #home, #register, #contact, #logIn, #leaderboard{
@@ -66,8 +67,7 @@ a:link{
     transform: scale(1.15);
 }
 table {
-    /* width: 100%; */
-    /* border-collapse: collapse; */
+    width: 88vw;
 }
 
 /* Targetting/overiding specific values   Note: Even and odd won't work*/
@@ -98,14 +98,19 @@ td, th{
     #home, #register, #contact, #logIn, #leaderboard {
         font-size: 0.7rem;
     }
+    .bars{
+        width: 100vw;
+    }
     td, th {
         padding: 0.3rem !important;
         font-size: 0.7rem;
     }
     table{
         margin-top: -55px;
+        width: 100vw;
     }
     #main-body{
         left: 0px;
+        width: 100vw;
     }
 }
