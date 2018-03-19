@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113542900-2"></script>
@@ -12,12 +13,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Concatenate that number" />
     <title>Epsilon</title>
     <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great&text=EpsilonRd|Open+Sans|Kaushan+Script" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="q.css">
 </head>
-
+<style>
+    .img-lg{
+        display: block;
+        margin: auto;
+        padding: 40px 25vw;
+    }
+    @media only screen and (max-device-width: 450px){
+        .img-lg{
+            padding: 30px 0vw;
+        }
+    }
+</style>
 <body>
     <div class="top-portion">
         <div>
@@ -45,28 +58,27 @@
             </a>
         </div>
     </div>
-
-    <div class="img1">
-        <img src="Q-images/img7.JPG" class="img-fluid" alt="image 7">
+    <div class="img-lg">
+        <img src="Q-images/mobile.JPG" class="img-fluid" alt="image 1">
     </div>
 
-    <h1 class="set">Makes Sense??</h1>
+    <h1 class="set">To get closer to solution, don't focus on what is common, focus on what is not!</h1>
+    <br>
 
     <form method="POST" action="loginprocess.php">
         <div class="form-group adjust">
-            <label for="q7"></label>
-            <input type="text" class="form-control" id="q7" placeholder="Answer here" required>
+            <label for="q1"></label>
+            <input type="text" class="form-control" id="q1" placeholder="Send your name" required>
         </div>
         <div class="adjust-button">
             <button type="submit" class="btn btn-primary">Submit</button>
         </div>
     </form>
 
-        <!-- oh you poor thing, the answer ain't here. Well, not yet :p -->
-
+    <!-- Bro, you looking for hint in here?
+         lmao !!! -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
-
 </html>

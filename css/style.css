@@ -1,9 +1,6 @@
 body{
-    /* background: url(img/scroll.svg) center no-repeat;
-    background-size: cover; */
-    /* background-repeat: no-repeat; */
-    /* height x width*/
     background-color: #454140;
+    overflow-x: hidden;
 }
 
 a:link{
@@ -15,7 +12,7 @@ a:link{
 #main-body{
     position: absolute;
     top: 5%;
-    left: 5%;
+    left: 0%;
     z-index: 20;
 }
 .title{
@@ -35,12 +32,7 @@ a:link{
     background-color: #7a3b2e;
     box-shadow: 10px 10px 5px #353535a1;
 }
-/* .txt{
-    opacity: 0.9;
-    text-align: center;
-    margin-top: -30px;
-    padding-left: 50%;
-} */
+
 .bars{
     display: flex;
     justify-content: space-around;
@@ -68,6 +60,7 @@ a:link{
 }
 table {
     width: 88vw;
+    margin-left: 6vw;
 }
 
 /* Targetting/overiding specific values   Note: Even and odd won't work*/
@@ -78,7 +71,7 @@ tr:nth-child(odd) {
 
 tr:nth-child(even) {
     background-color: #ecd7bfef;
-} 
+}
 th{
     background-color: #7a3b2e;
     color: #fff;
@@ -91,7 +84,7 @@ td, th{
     width: 30%;
     z-index: 10;
 }
-@media only screen and (max-device-width: 500px) {
+@media only screen and (max-device-width: 450px) {
     .title{
         font-size: 2.2rem;
     }
@@ -100,6 +93,7 @@ td, th{
     }
     .bars{
         width: 100vw;
+        margin-left: 0px;
     }
     td, th {
         padding: 0.3rem !important;
@@ -108,9 +102,10 @@ td, th{
     table{
         margin-top: -55px;
         width: 100vw;
+        margin-left: 0px;
     }
     #main-body{
-        left: 0px;
+        left: 0%;
         width: 100vw;
     }
 }

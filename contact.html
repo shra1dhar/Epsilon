@@ -2,6 +2,14 @@
 <html lang="en">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113542900-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-113542900-2');
+    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -37,18 +45,18 @@
                 </span>
                 <input type="text" class="flag" name="name" placeholder="Enter your name" required>
             </div>
-        
+
             <div class="input-group">
                 <span class="input-group-addon">
                     <i class="fa fa-envelope-o"></i>
                 </span>
                 <input type="email" class="flag" name="email" placeholder="Enter your email id" required>
             </div>
-        
+
             <div class="input-group">
                 <textarea class="flag msg" name="message" placeholder="Enter your message" required></textarea>
             </div>
-        
+
             <button type="submit" id="sub" value="submit" name="submit">
                 <i class="fa fa-paper-plane"></i>&nbspSend</button>
         </form>
