@@ -104,6 +104,19 @@ tr:nth-child(odd){
     .title {
         font-size: 2.2rem;
     }
+    .scoreboard {
+        display: block;
+        padding: 0px;
+        width: 100vw;
+        margin-left: 0px;
+    }
+    .table{
+        width: 100vw;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        padding: 0px;
+        font-size: 0.6rem
+    }
     .bars {
         width: 100vw;
         margin-left: 0vw;
